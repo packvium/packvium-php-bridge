@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "name": "Packvium native bridge for PHP",
   "description": "Packvium backend bridge: the Rust engine over FFI when available, pure PHP otherwise.",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "license": "https://spdx.org/licenses/MIT",
   "author": [
     {
@@ -13,8 +13,8 @@
     }
   ],
   "url": "https://packvium.com",
-  "codeRepository": "https://github.com/toxakara/packvium-php-bridge",
-  "issueTracker": "https://github.com/toxakara/packvium-php-bridge/issues",
+  "codeRepository": "https://github.com/packvium/packvium-php-bridge",
+  "issueTracker": "https://github.com/packvium/packvium-php-bridge/issues",
   "programmingLanguage": "PHP",
   "keywords": [
     "3d-bin-packing",

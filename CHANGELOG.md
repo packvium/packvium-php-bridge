@@ -4,6 +4,14 @@ What changed in `packvium/native-bridge` on Packagist, release by release. The f
 [Keep a Changelog](https://keepachangelog.com/1.1.0/) and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.11.0]
+
+No changes of its own. Both backends, `packvium/packvium` 1.11.0 and the 1.11.0 C library, now
+read `bottom_gusset_depth` and `orientation: "standing"` on a gusseted bag, state a lower bound
+for `shipping_cost` and `lowest_landed_cost`, refuse a rate table priced above 9007199254740991
+minor units, and cap `hull_vertices` at 32. The PHP backend now sorts container ids as text
+(`"10"` before `"9"`), as the Rust backend always did.
+
 ## [1.10.0]
 
 No changes of its own. Both backends, `packvium/packvium` 1.10.0 and the 1.10.0 C library, now
