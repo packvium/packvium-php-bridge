@@ -13,8 +13,8 @@
   "homepage": "https://packvium.com",
   "support": {
     "docs": "https://packvium.com/docs",
-    "issues": "https://github.com/toxakara/packvium-php-bridge/issues",
-    "source": "https://github.com/toxakara/packvium-php-bridge"
+    "issues": "https://github.com/packvium/packvium-php-bridge/issues",
+    "source": "https://github.com/packvium/packvium-php-bridge"
   },
   "require": {"php": ">=7.4"},
   "require-dev": {"packvium/packvium": "^1.0"},

@@ -5,10 +5,10 @@ type: software
 authors:
   - name: "Packvium contributors"
     website: "https://packvium.com"
-version: "1.10.0"
+version: "1.11.0"
 license: MIT
 url: "https://packvium.com"
-repository-code: "https://github.com/toxakara/packvium-php-bridge"
+repository-code: "https://github.com/packvium/packvium-php-bridge"
 repository-artifact: "https://packagist.org/packages/packvium/native-bridge"
 abstract: >-
   Packvium backend bridge: the Rust engine over FFI when available, pure PHP otherwise.

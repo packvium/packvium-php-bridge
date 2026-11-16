@@ -109,13 +109,13 @@ runtime (a bad pointer, unparseable output) disables the library for the rest of
 
 ## Examples
 
-Runnable, in [`examples/`](https://github.com/toxakara/packvium-php-bridge/tree/main/examples).
+Runnable, in [`examples/`](https://github.com/packvium/packvium-php-bridge/tree/main/examples).
 Each one is a single file you can read top to bottom and execute without a project around it.
 
 | File | What it shows |
 | --- | --- |
-| [`basic.php`](https://github.com/toxakara/packvium-php-bridge/blob/main/examples/basic.php) | Pack through the bridge and report which backend answered. |
-| [`shapes.php`](https://github.com/toxakara/packvium-php-bridge/blob/main/examples/shapes.php) | Items that are not their box: complementary wedges sharing one crate as `convex_hull`, and a cushion that compresses under load until the crush limit refuses it — the same numbers whichever backend loaded. |
+| [`basic.php`](https://github.com/packvium/packvium-php-bridge/blob/main/examples/basic.php) | Pack through the bridge and report which backend answered. |
+| [`shapes.php`](https://github.com/packvium/packvium-php-bridge/blob/main/examples/shapes.php) | Items that are not their box: complementary wedges sharing one crate as `convex_hull`, and a cushion that compresses under load until the crush limit refuses it — the same numbers whichever backend loaded. |
 
 ```bash
 php examples/basic.php                                  # pure PHP
@@ -144,26 +144,26 @@ Documentation, the constraint reference and the benchmarks are at
 
 | Package | Install | Source |
 | --- | --- | --- |
-| Python — [`packvium`](https://pypi.org/project/packvium/) | `pip install packvium` | [packvium-python](https://github.com/toxakara/packvium-python) |
-| PHP — [`packvium/packvium`](https://packagist.org/packages/packvium/packvium) | `composer require packvium/packvium` | [packvium-php](https://github.com/toxakara/packvium-php) |
-| Rust — [`packvium`](https://crates.io/crates/packvium) | `packvium = "1.10"` | [packvium-rust](https://github.com/toxakara/packvium-rust) |
-| Node.js — [`@packvium/engine`](https://www.npmjs.com/package/@packvium/engine) | `npm install @packvium/engine` | [packvium-node](https://github.com/toxakara/packvium-node) |
-| Browser / WebAssembly — [`@packvium/browser`](https://www.npmjs.com/package/@packvium/browser) | `npm install @packvium/browser` | [packvium-wasm](https://github.com/toxakara/packvium-wasm) |
-| PHP FFI bridge — [`packvium/native-bridge`](https://packagist.org/packages/packvium/native-bridge) | `composer require packvium/native-bridge` | [packvium-php-bridge](https://github.com/toxakara/packvium-php-bridge) |
-| Python native selector — `packvium-native` | from source until the native wheels ship | [packvium-python-adapter](https://github.com/toxakara/packvium-python-adapter) |
+| Python — [`packvium`](https://pypi.org/project/packvium/) | `pip install packvium` | [packvium-python](https://github.com/packvium/packvium-python) |
+| PHP — [`packvium/packvium`](https://packagist.org/packages/packvium/packvium) | `composer require packvium/packvium` | [packvium-php](https://github.com/packvium/packvium-php) |
+| Rust — [`packvium`](https://crates.io/crates/packvium) | `packvium = "1.11"` | [packvium-rust](https://github.com/packvium/packvium-rust) |
+| Node.js — [`@packvium/engine`](https://www.npmjs.com/package/@packvium/engine) | `npm install @packvium/engine` | [packvium-node](https://github.com/packvium/packvium-node) |
+| Browser / WebAssembly — [`@packvium/browser`](https://www.npmjs.com/package/@packvium/browser) | `npm install @packvium/browser` | [packvium-wasm](https://github.com/packvium/packvium-wasm) |
+| PHP FFI bridge — [`packvium/native-bridge`](https://packagist.org/packages/packvium/native-bridge) | `composer require packvium/native-bridge` | [packvium-php-bridge](https://github.com/packvium/packvium-php-bridge) |
+| Python native selector — `packvium-native` | from source until the native wheels ship | [packvium-python-adapter](https://github.com/packvium/packvium-python-adapter) |
 
 ## Citation
 
 If Packvium supports your research, cite it as software. GitHub's **Cite this repository**
-button reads [`CITATION.cff`](https://github.com/toxakara/packvium-php-bridge/blob/main/CITATION.cff), and
-[`codemeta.json`](https://github.com/toxakara/packvium-php-bridge/blob/main/codemeta.json) carries the same record in
+button reads [`CITATION.cff`](https://github.com/packvium/packvium-php-bridge/blob/main/CITATION.cff), and
+[`codemeta.json`](https://github.com/packvium/packvium-php-bridge/blob/main/codemeta.json) carries the same record in
 CodeMeta form.
 
 ```bibtex
 @software{packvium_php_bridge,
   author  = {{Packvium contributors}},
   title   = {Packvium native bridge for PHP},
-  version = {1.10.0},
+  version = {1.11.0},
   license = {MIT},
   url     = {https://packvium.com}
 }
@@ -171,4 +171,4 @@ CodeMeta form.
 
 ## License
 
-MIT. See [LICENSE](https://github.com/toxakara/packvium-php-bridge/blob/main/LICENSE).
+MIT. See [LICENSE](https://github.com/packvium/packvium-php-bridge/blob/main/LICENSE).
